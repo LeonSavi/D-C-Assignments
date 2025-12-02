@@ -4,7 +4,7 @@ library(dplyr)
 
 set.seed(1)
 
-N <- 10000
+N <- 1000
 
 
 # E
