@@ -84,9 +84,9 @@ ggplot(df_long, aes(x = Value)) +
 
 # check output
 library("scatterplot3d")
-scatterplot3d(cbind(capacity,demand,capacity), angle = 10, color=22,
+scatterplot3d(cbind(supply,demand,prices), angle = 10, color=22,
               xlab="capacity", ylab="demand",
-              zlab="RAMp")
+              zlab="prices")
 
 
 # dag
